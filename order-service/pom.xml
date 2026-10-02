@@ -34,8 +34,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
-        <!-- Testing -->
+		<dependency>
+			<groupId>com.ecommerce.core</groupId>
+			<artifactId>ecommerce-core</artifactId>
+			 <version>${project.version}</version>
+		</dependency>
+		<!-- Testing -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
